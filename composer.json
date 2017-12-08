@@ -1,5 +1,19 @@
 {
   "name": "rollun-com/all-standards",
   "description": "Repository containing all rollun-com standards, interfaces and docs",
-  "license": "proprietary"
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "avz-cmf",
+      "email": "email@example.com"
+    },
+    {
+      "name": "victorynox",
+      "email": "it.proffesor02@gmail.com"
+    },
+    {
+      "name": "bryakwork",
+      "email": "bryakwork@gmail.com"
+    }
+  ]
 }
