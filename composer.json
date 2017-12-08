@@ -1,7 +1,9 @@
 {
   "name": "rollun-com/all-standards",
   "description": "Repository containing all rollun-com standards, interfaces and docs",
+  "minimum-stability": "stable",
   "license": "proprietary",
+  "type": "library",
   "authors": [
     {
       "name": "avz-cmf",
