@@ -242,12 +242,18 @@ return [
 
 ### 6. Оформления кода
 
-* Для проверки оформления кода НЕОБХОДИМО использовать [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+* Для проверки оформления кода НЕОБХОДИМО использовать [squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer).
 * Правила для оформления кода НЕОБХОДИМО хранить в файле `phpcs.xml` корневой директории.
 * Всем разработчикам библиотеки НЕОБХОДИМО следовать правилам описанным в `phpcs.xml`.
 
 
-### 7. Config providers
+### Тестирование
+
+* НЕОБХОДИМО чтобы все тесты находились в `test` директории корневой лиректории.
+* Для `unit` тестрирование РЕКОМЕНДУЕТЬСЯ использовать [phpunit/phpunit](https://github.com/sebastianbergmann/phpunit).
+
+
+### 8. Config providers
 
 Правила создание и хранение конфигурационных файлов ([config providers](https://docs.zendframework.com/zend-config-aggregator/config-providers/)).
 
