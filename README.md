@@ -3,7 +3,7 @@
 rollun-com, а также документацию
 
 ## Оглавление
-1. [План создания сервисов](https://github.com/rollun-com/all-standards/blob/develop/docs/ServiceInstallationToVM.md)
+1. [План создания сервисов](./docs/SERVICE_INSTALLATION_TO_VM.md)
 2. [Сравнение нод RQL в PHP и JS](./docs/PHP_AND_JS_NODES.md)
 
 ## Rollun Standard Recommendation
