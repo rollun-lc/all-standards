@@ -88,8 +88,15 @@ RSR-1: Базовые стандарты оформления проектов
 
 ##### 2.2. Лицензия
 
-* СЛЕДУЕТ использовать [MIT](https://opensource.org/licenses/MIT) лицензию.
-* В `LICENSE.md` НЕОБХОДИМО хранить всю информацию о лицензии.
+* Для открытых библиотек/сервисов СЛЕДУЕТ использовать [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) лицензию (известную как "New BSD License" или "Modified BSD License").
+* В [`LICENSE.md`](../../LICENSE.md) НЕОБХОДИМО хранить всю информацию о лицензии.
+* В начале каждого файла с кодом НЕОБХОДИМО поместить следующий текст:
+```
+/**
+ * @copyright Copyright (c) 2014 Rollun lc (http://rollun.com/)
+ * @license   ../LICENSE.md New BSD License
+ */
+```
 
 ##### 2.3. Документирование изменений
 
